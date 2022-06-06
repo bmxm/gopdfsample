@@ -23,7 +23,7 @@ func main() {
 		log.Print(err.Error())
 		return
 	}
-	pdf.SetGrayFill(0.5)
+	pdf.SetGrayFill(0.1)
 	pdf.Cell(nil, "您好 Hello")
 	/*
 		pdf.Image("../imgs/gopher.jpg", 200, 50, nil)
